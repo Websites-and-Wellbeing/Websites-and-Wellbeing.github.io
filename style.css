@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+ 	 scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header { 
+	background-image: linear-gradient(rgba(50,50,30,0.2), rgba(20,30,30,0.2)), url(images/headers/positiveheader7.png);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+	background-color:white;
+}
+
+.positivewords {
+	background-image: linear-gradient(rgba(50,50,30,0.2), rgba(20,30,30,0.2)), url(images/headers/positivewords4.png);
+	height: 87vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title {
+	padding-top: 150px;
+}
+
+.title .black-text {
+	color: black;
+	text-align: center;
+	font-size: 200%;
+	margin-top: 20%;
+	margin-bottom: 25px;
+}
+
+.title .black-text:hover {
+	font-size: 230%;
+}
+
+a.buttondown, a.buttondown2 {
+	font-size: 150%;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 10px 15px;
+	margin-top: 35px;
+	border-radius: 30px;
+}
+
+a.buttondown:hover, a.buttondown2:hover {
+	font-size: 150%;
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 10px 15px;
+	margin-top: 35px;
+	border-radius: 30px;
+}
+
+#about a {
+	color: #d60916;
+	text-decoration: none;
+}
+
+#about a:hover {
+	font-weight: bold;
+}
+
+.nav {
+	padding: 10px;
+}
+
+.navbar {
+	background-color: white;
+	position: sticky;
+} 
+
+.nav li a {
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav li a:hover {
+	color:black;
+	border-bottom: 2px solid black;
+	transition: all 0.5s ease-in;
+	margin: 5px;
+}
+
+.para2 {
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.para6 {
+	width: 70%;
+	margin-left: 15%;
+	text-align: justify;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #8e0e0e;
+	display: grid;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.intro {
+	margin-bottom: 70px;
+}
+
+.portfolio {
+	background-color: beige;
+	padding-bottom: 60px;
+}
+
+.portfolio .btn {
+	border: 2px solid #8e0e0e;
+	background-color: beige;	
+	color: black;
+}
+
+#carouselExampleIndicators {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    margin-bottom: 60px; 
+ }
+
+.footer {
+	background-color: #302925;
+	height: 15vh;
+	text-align: center;
+}
+
+.footer p {
+	color:white;
+}
+
+.social {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 575px) {
+	.navbar {
+		background-color: white;
+	}
+
+	.header {
+		background-image: linear-gradient(rgba(50,50,30,0.2), rgba(20,30,30,0.2)), url(images/headers/mobileheader6.png);
+		height: 100vh;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.title .black-text {
+		font-size: 180%;
+	}
+
+	.title .black-text:hover {
+		font-size: 190%;
+	}
+
+	#carouselExampleIndicators {
+		width: 100%;
+	}
+}
